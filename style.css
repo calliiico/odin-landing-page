@@ -25,6 +25,8 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    background-color: #1F2937;
+    padding: 20px 200px;
 }
 
 ul {
@@ -67,7 +69,8 @@ blockquote {
 .hero-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: pink;
+    padding: 100px 200px;
+    
     
     
     
@@ -75,7 +78,7 @@ blockquote {
 
 .image-placeholder {
     flex: 1;
-    background-color: #eee;
+    
     
 
 }
