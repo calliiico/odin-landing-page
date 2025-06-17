@@ -11,7 +11,7 @@ body {
   font-size: 18px;
 }
 
-.three {
+.quote {
   background-color: #e5e7eb;
 }
 
@@ -140,7 +140,7 @@ cite {
   border-radius: 16px;
   border: 4px solid #3882f6;
 }
-.four {
+.call-to-action {
   display: flex;
   justify-content: center;
   margin: 100px;
