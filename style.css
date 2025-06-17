@@ -11,15 +11,17 @@ body {
   font-size: 18px;
 }
 
-.quote {
-  background-color: #e5e7eb;
-}
-
+/*  HEADER SECTION  */
 header {
   display: flex;
   justify-content: space-between;
   background-color: #1f2937;
   padding: 20px 200px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
 }
 
 ul {
@@ -31,6 +33,20 @@ ul {
 a {
   text-decoration: none;
   color: #f9faf8;
+}
+/* END OF HEADER SECTION */
+
+/* HERO */
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 100px 200px;
+  background-color: #1f2937;
+  justify-content: center;
+}
+
+.left {
+  flex: 1;
 }
 
 .hero-title {
@@ -45,11 +61,6 @@ a {
   padding-bottom: 20px;
 }
 
-.logo {
-  font-size: 24px;
-  color: #f9faf8;
-}
-
 button {
   background-color: #3882f6;
   cursor: pointer;
@@ -62,47 +73,9 @@ button {
   font-family: Roboto;
 }
 
-h2 {
-  font-size: 36px;
-  color: #1f2937;
-  font-weight: 900;
-  text-align: center;
-  padding: 48px;
-}
-
-blockquote {
-  color: #1f2937;
-  font-size: 36px;
-  font-style: italic;
-  padding: 110px 300px 0px 300px;
-  font-weight: 300;
-}
-
-cite {
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 330px;
-  font-weight: 700;
-  font-size: 24px;
-  padding-bottom: 100px;
-}
-
-.hero {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 100px 200px;
-  background-color: #1f2937;
-  justify-content: center;
-  
-}
-
 .image-placeholder {
   flex: 1;
   display: flex;
-}
-
-.left {
-  flex: 1;
 }
 
 .image {
@@ -115,6 +88,16 @@ cite {
 
 .image p {
   color: #f9faf8;
+}
+/* HERO END */
+
+/* RANDOM INFORMATION SECTION */
+h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+  padding: 48px;
 }
 
 .card-container {
@@ -140,6 +123,32 @@ cite {
   border-radius: 16px;
   border: 4px solid #3882f6;
 }
+/* END OF RANDOM INFORMATION */
+
+/* QUOTE Section */
+blockquote {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  padding: 110px 300px 0px 300px;
+  font-weight: 300;
+}
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+cite {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 330px;
+  font-weight: 700;
+  font-size: 24px;
+  padding-bottom: 100px;
+}
+/* QUOTE Section End */
+
+/* CALL TO ACTION START */
 .call-to-action {
   display: flex;
   justify-content: center;
@@ -166,7 +175,9 @@ cite {
 .left-act {
   color: #f9faf8;
 }
+/* CALL TO ACTION END */
 
+/* FOOTER START */
 footer {
   color: #e5e7eb;
   padding: 40px;
@@ -174,3 +185,4 @@ footer {
   justify-content: center;
   display: flex;
 }
+/* FOOTER END */
