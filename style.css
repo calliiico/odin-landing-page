@@ -36,8 +36,8 @@ ul {
 }
 
 a {
-    text-decoration: none;
-    color: #f9faf8;
+  text-decoration: none;
+  color: #f9faf8;
 }
 
 .hero-title {
@@ -67,7 +67,6 @@ button {
   font-size: 16px;
   font-weight: bold;
   font-family: Roboto;
-  
 }
 
 h2 {
@@ -84,18 +83,15 @@ blockquote {
   font-style: italic;
   padding: 110px 300px 0px 300px;
   font-weight: 300;
-  
-
 }
 
 cite {
-    display: flex;
+  display: flex;
   justify-content: flex-end;
   padding-right: 330px;
   font-weight: 700;
   font-size: 24px;
   padding-bottom: 100px;
-
 }
 
 .hero-container {
@@ -149,23 +145,22 @@ cite {
   border: 4px solid #3882f6;
 }
 .four {
-    display: flex;
-    justify-content: center;
-    margin: 100px;
+  display: flex;
+  justify-content: center;
+  margin: 100px;
 }
 
 .action-container {
-    background-color: #3882f6;
-    border-radius: 10px;
-    display: flex;
-    padding: 48px 110px;
-    gap: 110px;
-    align-items: center;
+  background-color: #3882f6;
+  border-radius: 10px;
+  display: flex;
+  padding: 48px 110px;
+  gap: 110px;
+  align-items: center;
 }
 
 .invert {
-    
-    border: 2px solid white;
+  border: 2px solid white;
 }
 
 .right-act {
@@ -173,10 +168,10 @@ cite {
 }
 
 .left-act {
-    color: #f9faf8;
+  color: #f9faf8;
 }
 
 .footer {
-    color: #e5e7eb;
-    padding: 40px;
+  color: #e5e7eb;
+  padding: 40px;
 }
