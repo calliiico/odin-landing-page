@@ -22,7 +22,7 @@ body {
   background-color: #e5e7eb;
 }
 
-.header {
+header {
   display: flex;
   justify-content: space-between;
   background-color: #1f2937;
