@@ -32,6 +32,12 @@ body {
 ul {
   list-style-type: none;
   display: flex;
+  gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
 }
 
 .hero-title {
@@ -43,6 +49,7 @@ ul {
 .hero-text {
   color: #e5e7eb;
   font-size: 18px;
+  padding-bottom: 20px;
 }
 
 .logo {
@@ -58,8 +65,9 @@ button {
   border-radius: 8px;
   padding: 8px 32px;
   font-size: 16px;
+  font-weight: bold;
   font-family: Roboto;
-  margin-top: 10px;
+  
 }
 
 h2 {
@@ -139,4 +147,31 @@ cite {
   height: 170px;
   border-radius: 16px;
   border: 4px solid #3882f6;
+}
+.four {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+
+.action-container {
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    padding: 48px 110px;
+    gap: 110px;
+    align-items: center;
+}
+
+.invert {
+    
+    border: 2px solid white;
+}
+
+.right-act {
+  flex: 1 0 auto;
+}
+
+.left-act {
+    color: #f9faf8;
 }
