@@ -12,7 +12,7 @@ body {
 }
 
 .one,
-.footer {
+footer {
   background-color: #1f2937;
   justify-content: center;
   display: flex;
@@ -171,7 +171,7 @@ cite {
   color: #f9faf8;
 }
 
-.footer {
+footer {
   color: #e5e7eb;
   padding: 40px;
 }
